@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cloud-monitoring
+  cloud:
+    config:
+      uri: http://config:8888
+      fail-fast: true
+      password: 123456
+      username: user
+
+server:
+  port: 9000

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+      password: 123456
+      username: user
+
+server:
+  port: 4000
